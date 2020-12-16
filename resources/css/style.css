@@ -33,6 +33,20 @@ h6 {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 /* HEADER DESIGN */
 .navbar {
   transition: 0.8s !important;
@@ -58,3 +72,17 @@ h6 {
 /* FAQ DESIGN */
 /* GET QUOTE DESIGN */
 /* FOOTER DESIGN */
+.footer ul li {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li a:hover {
+  color: #929292;
+}
