@@ -1,0 +1,58 @@
+/* COMMON DESIGN */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  background-color: #d8d8d8;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.4) url("../images/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: darken;
+  padding-top: 210px;
+  padding-bottom: 170px;
+  color: white;
+  text-align: center;
+}
+
+.bg-blank{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/* HEADER DESIGN */
+.navbar{
+    transition: 0.8s !important;
+}
+
+.navbar .nav-item .nav-link{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* HOME DESIGN */
+/* ABOUT DESIGN */
+/* OUR EVENTS DESIGN */
+/* KINDS OF EVENTS DESIGN */
+/* FAQ DESIGN */
+/* GET QUOTE DESIGN */
+/* FOOTER DESIGN */
